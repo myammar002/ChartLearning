@@ -85,6 +85,7 @@ class ViewController: UIViewController, ChartViewDelegate {
         
         // Data Charts
         setData()
+        ChartView.setVisibleXRange(minXRange: 5, maxXRange: 5)
     }
 
     func setData() {
